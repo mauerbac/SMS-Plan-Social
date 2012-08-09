@@ -1,0 +1,87 @@
+<htmL>
+	<head>
+		<title>Add User </title> 
+		<style type="text/css">
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  background-image: url(img/natural_paper.png);
+}
+
+h1{
+  font-family: Average;
+  font-size: 95px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 50px;
+  border-top: 19px solid rgba(0, 0, 0, 0.01);
+  width: 850px;
+}
+
+div.box{
+  width: 300px;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  border-right: 1px solid #d0d0d0;
+  height: 400px;
+}
+
+p.title{
+  line-height: 25px;
+  font-size: 21px;
+  font-family: Average;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+p.body{
+
+}
+
+li{
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.darkbtn{
+  float: left;
+  margin: 0 7px 0 0;
+  text-decoration: none;
+  background-color: whiteSmoke;
+  border: 1px solid #DEDEDE;
+  border-top: 1px solid #EEE;
+  border-left: 1px solid #EEE;
+  padding: 5px 15px 6px 15px;
+  display: block;
+  cursor: pointer;
+  font-size: 100%;
+  line-height: 130%;
+  color: #333;
+  font-weight: bold;
+}
+
+.darkbtn:hover{
+  background-color: #df2f2f2;
+}
+
+</style>
+	</head>
+
+	<body>
+		<h3> Enter New User </h3>
+	<form name="userEntry" action="entryUser.php" method="POST">
+
+	Name: <input name="name" type="text" size="20" maxlength="40" />	<br />
+	Email: <input type = "text" name = "email"  maxlength="40"/> <br />
+	Phone Number <input type="text" name="number" size=20 /> Use: 1(123)456-7891. Include 1 before area code    <br />
+<br />
+	<input type="Submit" value="Submit" /> 
+
+
+</form> 
+	</body>
+
+	</html> 
+
