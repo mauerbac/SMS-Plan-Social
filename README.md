@@ -8,7 +8,7 @@ Group members can add, view their own todos as well as others and mark as comple
 
 ![Browser View](https://raw.github.com/mauerbac/SMS-Plan-Social/master/img/img1.png)
 
-Using a Cell phone has all the same functionality 
+Using a Cell phone has the same functionality 
 
 ![On Cell Phone](https://raw.github.com/mauerbac/SMS-Plan-Social/master/img/img2.png)
 
